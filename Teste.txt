@@ -1,3 +1,0 @@
-Fazendo upload de codigos com o git 
-Fazendo uma atualização dentro do texto
-para construir a versão dois do meu codigo.

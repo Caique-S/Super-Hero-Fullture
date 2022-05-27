@@ -1,0 +1,172 @@
+@charset "UTF-8";
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:&display=swap");
+html,
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 0;
+  margin: 0;
+  width: 100%;
+}
+.header {
+  background: url(../img/jpeg/spiderman.jpeg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  height: 60vw;
+}
+.header_bar {
+  display: flex;
+  order: 1;
+  width: 100%;
+  height: 10vw;
+}
+.menu_itens {
+  margin: 0vw 0vw 0vw 20vw;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 45vw;
+}
+li {
+  display: inline-block;
+  padding-bottom: 3px;
+}
+li:hover {
+  border-bottom: 3px solid #fe7467;
+}
+a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 2vw;
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+}
+.header_image {
+  background: url(../img/png/title_spiderman.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  margin: 0vw 0vw 0vw 5vw;
+  width: 30vw;
+  height: 25vw;
+  order: 2;
+}
+
+.main {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin: 0vw 0vw 0vw 0vw;
+}
+.main_quem_somos {
+  order: 0;
+  background: url(../img/jpeg/thor_header.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 50vw;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: end;
+}
+.title_thor {
+  text-align: center;
+  align-items: center;
+  margin: 5vw 0vw 0vw 0vw;
+  color: #fff;
+  font-size: 2.5vw;
+  height: 3vw;
+  width: 100%;
+}
+.title_thor_decoration {
+  padding-bottom: 1vw;
+  border-bottom: 4px solid #fff;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 800;
+}
+.container_thor_text {
+  margin: 6vw 3vw 0vw 2vw;
+  width: 40vw;
+  height: 40vw;
+}
+.thor_text {
+  color: #fff;
+  font-size: 2vw;
+  font-family: "Montserrat", sans-serif;
+}
+.main_catalogo {
+  order: 1;
+  width: 100%;
+  height: 40vw;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+.title_bonecos {
+  order: 0;
+  text-align: center;
+  align-items: center;
+  margin: 3vw 0vw 0vw 0vw;
+  color: #3a3a3a;
+  font-size: 2.5vw;
+  height: 3vw;
+  width: 100%;
+}
+.title_bonecos_decoration {
+  padding-bottom: 1vw;
+  border-bottom: 4px solid #fe7467;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 800;
+}
+.main_image {
+  background: url(../img/png/bonecos.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  order: 1;
+  width: 50%;
+  height: 30vw;
+  margin: 0vw 0vw 0vw 0vw;
+}
+.container_bonecos_text {
+  margin: 0vw 0vw 0vw 0vw;
+  padding: 0vw 2vw 0vw 2vw;
+  order: 2;
+  width: 45%;
+  height: 30vw;
+}
+.bonecos_text {
+  color: rgb(50, 50, 50);
+  font-size: 2vw;
+  font-family: "Montserrat", sans-serif;
+}
+.botaocatalogo {
+  border-radius: 19px;
+  height: 4vw;
+  background-image: linear-gradient(#fe6467, #fa5748);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 0px;
+  padding: 0vw 1vw 0vw 1vw;
+}
+.botaocatalogo > a {
+  font-size: 1.1vw;
+  color: #fff;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 900;
+}
+body::-webkit-scrollbar {
+  width: 10px;
+}
+body::-webkit-scrollbar-track {
+  background: rgb(69, 69, 69);
+}
+body::-webkit-scrollbar-thumb {
+  background-color: #fe7467;
+  border-radius: 50px;
+}
