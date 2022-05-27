@@ -1,0 +1,71 @@
+.header-catalogo{
+    background: url(../img/jpeg/captainmarvelheader.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    height: 60vw;
+}
+
+.header-image-catalogo{
+    background: url(../img/png/captainmarveltitle.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin: 19vw 0vw 0vw 18vw;
+    width: 40vw;
+    height: 18vw;
+    order: 2;
+}
+.main-catalogo{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+.title-catalogo{
+    order: 1;
+    align-self: center;
+}
+.table-produtos{
+    order: 2;
+    display: grid;
+    grid-template-columns: repeat(3, 30vw);
+    grid-template-rows: repeat(2, 30vw);
+    align-self: center;
+    row-gap: 3vw;
+    column-gap: 2vw;
+}
+.produtos{
+    width: 30vw;
+    height: 30vw;
+    border: 1px solid blue;
+}
+
+.box1{
+    grid-column: 1/2;
+    grid-row: 1/2;
+}
+.box2{
+    grid-column: 2/3;
+    grid-row: 1/2;
+}
+.box3{
+    grid-column: 3/4;
+    grid-row: 1/2;
+}
+.box4{
+    grid-column: 1/2;
+    grid-row: 2/3;
+}
+.box5{
+    grid-column: 2/3;
+    grid-row: 2/3;
+}
+.box6{
+    grid-column: 3/4;
+    grid-row: 2/3;
+}
+
+.p{
+display: inline-block;
+}

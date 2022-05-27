@@ -9,7 +9,7 @@ body {
   margin: 0;
   width: 100%;
 }
-.header {
+.header-home {
   background: url(../img/jpeg/spiderman.jpeg);
   background-size: cover;
   background-repeat: no-repeat;
@@ -46,7 +46,7 @@ a {
   font-family: "Montserrat", sans-serif;
   font-weight: bold;
 }
-.header_image {
+.header_image-home {
   background: url(../img/png/title_spiderman.png);
   background-size: contain;
   background-repeat: no-repeat;
