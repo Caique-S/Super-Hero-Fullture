@@ -82,12 +82,12 @@ a {
   font-size: 2.5vw;
   height: 3vw;
   width: 100%;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 800;
 }
 .title_thor_decoration {
   padding-bottom: 1vw;
   border-bottom: 4px solid #fff;
-  font-family: "Montserrat", sans-serif;
-  font-weight: 800;
 }
 .container_thor_text {
   margin: 6vw 3vw 0vw 2vw;
@@ -116,12 +116,12 @@ a {
   font-size: 2.5vw;
   height: 3vw;
   width: 100%;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 800;
 }
 .title_bonecos_decoration {
   padding-bottom: 1vw;
   border-bottom: 4px solid #fe7467;
-  font-family: "Montserrat", sans-serif;
-  font-weight: 800;
 }
 .main_image {
   background: url(../img/png/bonecos.png);
@@ -148,10 +148,10 @@ a {
   border-radius: 19px;
   height: 4vw;
   background-image: linear-gradient(#fe6467, #fa5748);
+  border: 0px;
   display: flex;
   justify-content: center;
   align-items: center;
-  border: 0px;
   padding: 0vw 1vw 0vw 1vw;
 }
 .botaocatalogo > a {

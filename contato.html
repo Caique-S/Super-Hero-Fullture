@@ -5,45 +5,51 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Contato</title>
-    <link rel="stylesheet" href="style_1.css" />
-    <link rel="stylesheet" href="style_2.css" />
-    <link rel="stylesheet" href="style_3.css" />
+    <link rel="stylesheet" href="css/style_home.css" />
+    <link rel="stylesheet" href="css/style_catalogo.css" />
+    <link rel="stylesheet" href="css/style_contato.css" />
   </head>
   <body>
-    <header>
-      <figure>
-        <img src="img/png/contatotitle.png" alt="image/png" />
-      </figure>
-      <nav>
-        <ul>
+    <header class="header-contato">
+      <figure class="header-image-contato"></figure>
+      <nav class="header_bar">
+        <ul class="menu_itens">
           <li><a href="index.html">Home</a></li>
           <li><a href="catalogo.html">Catálogo</a></li>
           <li><a href="contato.html">Contato</a></li>
         </ul>
       </nav>
     </header>
-    <main>
-      <section>
-        <h1>ENTRE EM CONTATO</h1>
-        <div>
+    <main class="main">
+      <section class="main-contato">
+        <h1 class="contato-header">
+          ENTRE<span class="title-contato-decoration"> EM CO</span>NTATO
+        </h1>
+        <div class="contato-text">
           <p>
             Lorem ipsum dolor sit amet consectetur, adipisicing elit. Maiores
-            libero voluptatum praesentium cupiditate odit id corporis
-            repellendus non fugiat labore dolores rerum quaerat ducimus tempora
-            impedit, sequi natus cumque illum?
+            libero voluptatumipsum dolor ipsum dolor praesentium cupiditate odit
+            id corporis
           </p>
-          <form>
-            <input type="text" name="nome" placeholder="NOME" id="" />
-            <input type="email" name="email" placeholder="EMAIL" id="" />
-            <input type="tel" name="telefone" placeholder="TELEFONE" id="" />
-            <textarea
-              placeholder="Como podemos ajudá-lo?"
-              cols="40"
-              rows="10"
-            ></textarea>
-            <input type="button" value="Enviar" />
-          </form>
         </div>
+        <form class="formulario-contato">
+          <input class="nome" type="text" name="nome" placeholder="NOME" />
+          <input class="email" type="email" name="email" placeholder="EMAIL" />
+          <input
+            class="tel"
+            type="tel"
+            name="telefone"
+            placeholder="TELEFONE"
+          />
+          <textarea
+            class="text"
+            placeholder="Como podemos ajudá-lo?"
+            cols="40"
+            rows="10"
+          >
+          </textarea>
+          <input class="botao-enviar" type="button" value="Enviar" />
+        </form>
       </section>
     </main>
   </body>

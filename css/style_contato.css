@@ -1,0 +1,115 @@
+.header-contato {
+  background: url(../img/jpeg/contatoheader.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  height: 60vw;
+}
+.header-image-contato {
+  margin: 20vw 0vw 0vw 15vw;
+  background: url(../img/png/contatotitle.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  order: 2;
+  width: 35vw;
+  height: 27vw;
+}
+.main {
+  margin: 0vw 0vw 0vw 0vw;
+  display: flex;
+  width: 100%;
+  justify-content: center;
+}
+.main-contato {
+  display: flex;
+  flex-direction: column;
+  margin: 0vw 0vw 3vw 0vw;
+}
+.contato-header {
+  margin: 4vw 0vw 0vw 0vw;
+  font-size: 2vw;
+  font-family: "Montserrat", sans-serif;
+  color: #3a3a3a;
+  text-align: center;
+}
+.title-contato-decoration {
+  padding-bottom: 1vw;
+  border-bottom: 4px solid #fe7467;
+}
+.contato-text {
+  margin: 0vw 0vw 0vw 0vw;
+  display: flex;
+  justify-content: center;
+}
+.contato-text > p {
+  text-align: center;
+  margin: 3vw 0vw 3vw 0vw;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  font-size: 1.3vw;
+  color: #787878;
+  width: 40vw;
+}
+.formulario-contato {
+  display: grid;
+  margin: 0vw 0vw 0vw 0vw;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr;
+  width: 50vw;
+  height: 16vw;
+  justify-items: center;
+
+  grid-template-areas:
+    "nome text"
+    "email text"
+    "tel text"
+    "botao botao";
+  grid-gap: 1vh;
+}
+.formulario-contato > input {
+  border-radius: 13px;
+}
+.nome {
+  grid-area: nome;
+  padding-left: 2vw;
+  border: 1px solid #bcbcbc;
+  width: 22vw;
+  height: 3vw;
+}
+.email {
+  grid-area: email;
+  padding-left: 2vw;
+  border: 1px solid #bcbcbc;
+  width: 22vw;
+  height: 3vw;
+}
+.tel {
+  grid-area: tel;
+  padding-left: 2vw;
+  border: 1px solid #bcbcbc;
+  width: 22vw;
+  height: 3vw;
+}
+.text {
+  border-radius: 12px;
+  grid-area: text;
+  resize: none;
+  border: 1px solid #bcbcbc;
+  width: 22vw;
+  height: 11vw;
+}
+::-webkit-input-placeholder {
+  font-size: 1.2vw;
+}
+.botao-enviar {
+  grid-area: botao;
+  background-image: linear-gradient(#fe6467, #fa5748);
+  border: 0px;
+  color: #fff;
+  font-size: 1.4vw;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 900;
+  width: 45vw;
+}

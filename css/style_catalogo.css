@@ -1,153 +1,151 @@
-.header-catalogo{
-    background: url(../img/jpeg/captainmarvelheader.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    height: 60vw;
+.header-catalogo {
+  background: url(../img/jpeg/captainmarvelheader.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  height: 60vw;
 }
 
-.header-image-catalogo{
-    background: url(../img/png/captainmarveltitle.png);
-    background-size: contain;
-    background-repeat: no-repeat;
-    margin: 19vw 0vw 0vw 18vw;
-    width: 40vw;
-    height: 18vw;
-    order: 2;
+.header-image-catalogo {
+  background: url(../img/png/captainmarveltitle.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  margin: 19vw 0vw 0vw 18vw;
+  width: 40vw;
+  height: 18vw;
+  order: 2;
 }
-.main-catalogo{
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    height: 80vw;
-    justify-content: center;
-    align-items: center;
+.main-catalogo {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  height: 80vw;
+  justify-content: center;
+  align-items: center;
 }
-.title-catalogo{
-    display: flex;
-    justify-content: center;
-    order: 1;
-    width: 100%;
+.title-catalogo {
+  display: flex;
+  justify-content: center;
+  order: 1;
+  width: 100%;
+  color: #3a3a3a;
+  font-size: 2.5vw;
+  font-family: "Montserrat", sans-serif;
 }
-.title-decoration{
-    font-size: 2vw;
-    font-family: "Montserrat", sans-serif;
-    color: #3a3a3a;
-    font-size: 2.5vw;
-    padding-bottom: 0.5vw;
-    border-bottom: 4px solid #fe7467;
-
+.title-decoration {
+  padding-bottom: 0.5vw;
+  border-bottom: 4px solid #fe7467;
 }
-.table-produtos{
-    margin: 0;
-    order: 2;
-    display: grid;
-    grid-template-columns: repeat(3, 30vw);
-    grid-template-rows: repeat(2, 35vw);
-    row-gap: 1vw;
-    column-gap: 1vw;
+.table-produtos {
+  margin: 0;
+  order: 2;
+  display: grid;
+  grid-template-columns: repeat(3, 30vw);
+  grid-template-rows: repeat(2, 35vw);
+  row-gap: 1vw;
+  column-gap: 1vw;
 }
-.produtos{
-    margin: 0;
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
+.produtos {
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
 }
 
-.box1{
-    grid-column: 1/2;
-    grid-row: 1/2;
+.box1 {
+  grid-column: 1/2;
+  grid-row: 1/2;
 }
-.produto-box1{
-    background: url(../img/produtos_catalogo/goku.jpg);
-    background-size: contain;
-    background-repeat: no-repeat;
+.produto-box1 {
+  background: url(../img/produtos_catalogo/goku.jpg);
+  background-size: contain;
+  background-repeat: no-repeat;
 }
-.box2{
-    grid-column: 2/3;
-    grid-row: 1/2;
+.box2 {
+  grid-column: 2/3;
+  grid-row: 1/2;
 }
-.produto-box2{
-    background: url(../img/produtos_catalogo/charizard.jpg);
-    background-size: contain;
-    background-repeat: no-repeat;
+.produto-box2 {
+  background: url(../img/produtos_catalogo/charizard.jpg);
+  background-size: contain;
+  background-repeat: no-repeat;
 }
-.box3{
-    grid-column: 3/4;
-    grid-row: 1/2;
+.box3 {
+  grid-column: 3/4;
+  grid-row: 1/2;
 }
-.produto-box3{
-    background: url(../img/produtos_catalogo/johnwick.jpg);
-    background-size: contain;
-    background-repeat: no-repeat;
+.produto-box3 {
+  background: url(../img/produtos_catalogo/johnwick.jpg);
+  background-size: contain;
+  background-repeat: no-repeat;
 }
-.box4{
-    grid-column: 1/2;
-    grid-row: 2/3;
+.box4 {
+  grid-column: 1/2;
+  grid-row: 2/3;
 }
-.produto-box4{
-    background: url(../img/produtos_catalogo/brave.jpg);
-    background-size: contain;
-    background-repeat: no-repeat;
+.produto-box4 {
+  background: url(../img/produtos_catalogo/brave.jpg);
+  background-size: contain;
+  background-repeat: no-repeat;
 }
-.box5{
-    grid-column: 2/3;
-    grid-row: 2/3;
+.box5 {
+  grid-column: 2/3;
+  grid-row: 2/3;
 }
-.produto-box5{
-    background: url(../img/produtos_catalogo/chucky.jpg);
-    background-size: contain;
-    background-repeat: no-repeat;
+.produto-box5 {
+  background: url(../img/produtos_catalogo/chucky.jpg);
+  background-size: contain;
+  background-repeat: no-repeat;
 }
-.box6{
-    grid-column: 3/4;
-    grid-row: 2/3;
+.box6 {
+  grid-column: 3/4;
+  grid-row: 2/3;
 }
-.produto-box6{
-    background: url(../img/produtos_catalogo/capitamarvel.jpg);
-    background-size: contain;
-    background-repeat: no-repeat;
-}
-
-.produto-image{
-    margin: 0;
-    height: 23vw;
-}
-.produto-text{
-    margin-left: 1vw;
-    margin-bottom: 1vw;
-    font-family: "Montserrat", sans-serif;
-}
-.produto-price{
-    font-family: "Montserrat", sans-serif;
-    font-size: 1.3vw;
-    font-style: italic;
-   margin-left: 1vw;
-   font-weight: 700;
-}
-.botao-comprar{
-    color: #fff;
-    border-radius: 19px;
-    background-image: linear-gradient(#fe6467, #fa5748);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border: 0px;
-    margin-top: 1vw;
-    font-size: 1.3vw;
-    height: 3.5vw;
-    width: 10vw;
-    margin-left: 1vw;
-    font-family: "Montserrat", sans-serif;
-    font-weight: 900;
+.produto-box6 {
+  background: url(../img/produtos_catalogo/capitamarvel.jpg);
+  background-size: contain;
+  background-repeat: no-repeat;
 }
 
-.produto-text > p{
-    margin: 0;
-    font-family: "Montserrat", sans-serif;
-    color: #212121;
-    font-size: 1.4vw;
-    font-weight: bold;
+.produto-image {
+  margin: 0;
+  height: 23vw;
+}
+.produto-text {
+  margin-left: 1vw;
+  margin-bottom: 1vw;
+  font-family: "Montserrat", sans-serif;
+}
+.produto-price {
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.3vw;
+  font-style: italic;
+  margin-left: 1vw;
+  font-weight: 700;
+}
+.botao-comprar {
+  color: #fff;
+  border-radius: 19px;
+  background-image: linear-gradient(#fe6467, #fa5748);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 0px;
+  margin-top: 1vw;
+  font-size: 1.3vw;
+  height: 3.5vw;
+  width: 10vw;
+  margin-left: 1vw;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 900;
+}
+
+.produto-text > p {
+  margin: 0;
+  font-family: "Montserrat", sans-serif;
+  color: #212121;
+  font-size: 1.4vw;
+  font-weight: bold;
 }
