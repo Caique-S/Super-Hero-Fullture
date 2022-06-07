@@ -1,14 +1,9 @@
-.header-catalogo {
+.header_catalogo {
   background: url(../img/jpeg/captainmarvelheader.jpg);
   background-size: cover;
   background-repeat: no-repeat;
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  height: 60vw;
 }
-
-.header-image-catalogo {
+.header_image_catalogo {
   background: url(../img/png/captainmarveltitle.png);
   background-size: contain;
   background-repeat: no-repeat;
@@ -17,12 +12,12 @@
   height: 18vw;
   order: 2;
 }
-.main-catalogo {
+.main_catalogo {
   display: flex;
   flex-direction: row;
+  justify-content: center;
   flex-wrap: wrap;
   height: 80vw;
-  justify-content: center;
   align-items: center;
 }
 .title-catalogo {
@@ -127,7 +122,7 @@
 }
 .botao-comprar {
   color: #fff;
-  border-radius: 19px;
+  border-radius: 14px;
   background-image: linear-gradient(#fe6467, #fa5748);
   display: flex;
   justify-content: center;

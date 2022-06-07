@@ -1,0 +1,48 @@
+@media (max-width: 768px)
+{
+
+.header_catalogo {
+    background: url(../img/mobilie-jpeg/catalogo_mobile.jpeg);
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
+  .header_image_catalogo {
+    margin: 15vw 0vw 0vw 5vw;
+    width: 70vw;
+    height: 31vw;
+    order: 2;
+  }
+  .title-catalogo {
+    font-size: 4.5vw;
+  }
+  .table-produtos {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+  .produtos {
+    height: 80vw;
+    width: 50vw;
+  }
+  .produto-image {
+    height: 50vw;
+    margin: 0vw 0vw 2vw 0vw;
+  }
+  .produto-text > p {
+    font-size: 3vw;
+    font-weight: 600;
+    margin: 1vw 1vw 1vw 1vw;
+  }
+  .produto-price {
+    font-size: 4vw;
+    margin: 0vw 0vw 1vw 1vw;
+  }
+  .botao-comprar {
+    margin-top: 1vw;
+    font-size: 2.7vw;
+    height: 7vw;
+    width: 23vw;
+    margin-left: 1vw;
+  }
+
+}
