@@ -1,28 +1,25 @@
-.header-contato {
+.header_contato {
   background: url(../img/jpeg/contatoheader.jpg);
   background-size: cover;
   background-repeat: no-repeat;
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  height: 60vw;
 }
-.header-image-contato {
-  margin: 20vw 0vw 0vw 15vw;
+.header_image_contato {
   background: url(../img/png/contatotitle.png);
   background-size: contain;
   background-repeat: no-repeat;
-  order: 2;
+  margin: 20vw 0vw 0vw 15vw;
   width: 35vw;
   height: 27vw;
+  order: 2;
 }
-.main {
-  margin: 0vw 0vw 0vw 0vw;
+.main_contato {
   display: flex;
-  width: 100%;
   justify-content: center;
+  flex-wrap: wrap;
+  margin: 0vw 0vw 0vw 0vw;
+  width: 100%;
 }
-.main-contato {
+.main_form {
   display: flex;
   flex-direction: column;
   margin: 0vw 0vw 3vw 0vw;
@@ -33,10 +30,6 @@
   font-family: "Montserrat", sans-serif;
   color: #3a3a3a;
   text-align: center;
-}
-.title-contato-decoration {
-  padding-bottom: 1vw;
-  border-bottom: 4px solid #fe7467;
 }
 .contato-text {
   margin: 0vw 0vw 0vw 0vw;
@@ -69,7 +62,9 @@
   grid-gap: 1vh;
 }
 .formulario-contato > input {
-  border-radius: 13px;
+  border-radius: 7px;
+  border: 1px solid #b8b8b8;
+  
 }
 .nome {
   grid-area: nome;
@@ -99,10 +94,9 @@
   border: 1px solid #bcbcbc;
   width: 22vw;
   height: 11vw;
+  background: #f7f7f7;
 }
-::-webkit-input-placeholder {
-  font-size: 1.2vw;
-}
+
 .botao-enviar {
   grid-area: botao;
   background-image: linear-gradient(#fe6467, #fa5748);
